@@ -1,6 +1,6 @@
 <html>
 
-     <head>
+  <head>
 
             <meta name="viewport"  content="width=device-width, initial-scale=-1">
 
@@ -12,7 +12,7 @@
 
      color:white;
 
-     font-size:22px;
+     font-size:auto;;
 
 }
 
@@ -34,7 +34,10 @@
 
 border-radius:30px;
 
-padding:15px;
+padding:10px;
+width:600px;
+
+
 
 }
 
@@ -44,19 +47,41 @@ width:99%;
 
 }
 
+placeholder{
+
+font-family:bold;
+
+}
+
       </style>
 
 </head>
 
-      <body>
+<body>
 
+<p id="load1"><embed src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/cd514331234507.564a1d2324e4e.gif" style="width:100%;height:100%;"</embed></p>
 
+<script>
 
-         <h2 id="headbox" >SMARAK&nbsp;DAS&nbsp;&nbsp;<input type="search" onkeyup="mysearch()" id="searchin"><input  type="submit" onclick="mysearch();" value="SEARCH"></h2><hr>
+    const st765 = setTimeout(maincall,1000);
 
-                  <br><br>
+function maincall(){
 
-            <p id="searchout1">Loading......</p>
+document.getElementById("load1").innerHTML="<table><tr><td width='600px;'><embed style='width:99%;height:70px;' src='https://i.ibb.co/smvMMHm/image.png' ></embed><br><input type='search' onkeyup='mysearch()' id='searchin'placeholder='Search..'><embed onclick='mysearch();' src='https://i.ibb.co/8YcM2Qr/image.png'style='background-color:yellow;width:36px;height:35px; border-radius:30px;position:absolute;left:570px;top:81px;'></embed><td><p id='mout1'><embed src='https://i.ibb.co/59xZxtQ/image.png' style='width:35px;height:35px;border-radius:30px;position:absolute;left:10px;background-color:green;top:0px;'alt='MENU'onclick='menubox();'></embed></p></td></tr> <tr><td> <p id='searchout1'></p></td><td></td></table>";
+
+}
+
+</script>
+
+<script>
+
+function menubox(){ 
+document.getElementById("mout1").innerHTML="<button onclick='close1();'>X</button><br><p>COMPUTER&nbsp;HARDWARE&nbsp;<br>MAINTAINANCE</p>";
+ } 
+function close1(){
+ document.getElementById("mout1").innerHTML="<embed src='https://i.ibb.co/59xZxtQ/image.png' style='width:35px;height:35px; border-radius:30px;position:absolute;left:10px;background-color:green;top:0px;'alt='MENU'onclick='menubox();'></embed></p></td>"; 
+}
+</script>
 
            <script>
 
@@ -66,31 +91,27 @@ width:99%;
 
          if(data1.toUpperCase() == 'CHM'){
 
-          document.getElementById("searchout1").innerHTML="<h5>CHM:COMPUTER HARDWARE MAINTAINANCE</h5><hr><br><table><tr><td><embed style='width:99%;height:auto;'src='https://i.ibb.co/bNVQGhp/CHM-BY-R-PANDA.jpg' onclick='rchm();'></embed></td><td><a onclick='rchm();'>VIEW</a></td></tr></table><embed style='width:99%;height:auto;'src='https://i.ibb.co/B66j0dZ/image.jpg' onclick='viewchm();'></embed></td><td><a onclick='viewchm();'>VIEW</a></td></tr></table>";
+          document.getElementById("searchout1").innerHTML="<table><tr><td><embed style='width:250px;height:auto;'src='https://i.ibb.co/bNVQGhp/CHM-BY-R-PANDA.jpg' onclick='rchm();'></embed></td><td><a onclick='rchm();'>CHM: R.PANDA(COMPLETE NOTE)</a></td></tr><tr><td><embed style='width:250px;height:auto;'src='https://i.ibb.co/B66j0dZ/image.jpg' onclick='viewchm();'></embed></td><td><a onclick='viewchm();'>CHM: ANONYMOUS(CHAPYER-3)</a></td></tr></table>";
 
 }
 
  else if(data1.toUpperCase() == 'C'){
 
-document.getElementById("searchout1").innerHTML="<h5><h3>CHM:</h3>COMPUTER HARDWARE MAINTAINANCE</h5><hr><br><tr><td><embed style='width:99%;height:auto;'src='https://i.ibb.co/bNVQGhp/CHM-BY-R-PANDA.jpg'onclick='rchm();'></embed></td><td><a onclick='rchm();'>VIEW</a></td></tr></table><embed style='width:99%;height:auto;'src='https://i.ibb.co/B66j0dZ/image.jpg' onclick='viewchm();'></embed></td><td><a onclick='viewchm();'>VIEW</a></td></tr></table>";
+document.getElementById("searchout1").innerHTML="<table><tr><td><embed style='width:250px;height:auto;'src='https://i.ibb.co/bNVQGhp/CHM-BY-R-PANDA.jpg'onclick='rchm();'></embed></td><td><a onclick='rchm();'>CHM: R.PANDA(COMPLETE NOTE)</a></td></tr></table><table><tr><td><embed style='width:250px;height:auto;'src='https://i.ibb.co/B66j0dZ/image.jpg' onclick='viewchm();'></embed></td><td><a onclick='viewchm();'>CHM: ANONYMOUS(CHAPYER-3)</a></td></tr></table>";
 
 }
 
   if(data1.toUpperCase() == 'SQL'){
 
-          document.getElementById("searchout1").innerHTML="<h5>SQL:SEQUENTIAL QUERRY LANGUAGE</h5><hr><br><table><tr><td><embed style='width:99%;height:auto;'src='https://i.ibb.co/VB1swdG/image.jpg'onclick='viewsql();'></embed></td><td><a onclick='viewsql();'>VIEW</a></td></tr></table>";
+          document.getElementById("searchout1").innerHTML="<table><tr><td><embed style='width:250px;height:auto;'src='https://i.ibb.co/VB1swdG/image.jpg'onclick='viewsql();'></embed></td><td><a onclick='viewsql();'>SQL:STRUCTURAL QUERRY LANGUAGE</a></td></tr></table>";
 
 }
 
   if(data1.toUpperCase() == 'S'){
 
-          document.getElementById("searchout1").innerHTML="<h5>SQL:SEQUENTIAL QUERRY LANGUAGE</h5><hr><br><table><tr><td><embed style='width:99%;height:auto;'src='https://i.ibb.co/VB1swdG/image.jpg'onclick='viewsql();'></embed></td><td><a onclick='viewsql();'>VIEW</a></td></tr></table>";
+          document.getElementById("searchout1").innerHTML="<table><tr><td><embed style='width:250px;height:auto;'src='https://i.ibb.co/VB1swdG/image.jpg'onclick='viewsql();'></embed></td><td><a onclick='viewsql();'>SQL:STRUCTURAL QERRY LANGUAGE</a></td></tr></table>";
 
 }
-
-
-
-
 
 
 
