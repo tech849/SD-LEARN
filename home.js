@@ -1,0 +1,4 @@
+const st765 = setTimeout(maincall,2500);
+function maincall(){
+document.getElementById("load1").innerHTML="<p id='searchout2'><p id='mout1'></p><br><embed src='https://i.ibb.co/59xZxtQ/image.png' style='width:50px;height:50px;position:static;'onclick='menubox();'></embed><embed src='https://i.ibb.co/dc6dhvy/image.png' style='width:45px;height:45px;position:static;background-color:blue;border-radius:20px;'onclick='searchin2();'></embed><embed src='https://i.ibb.co/kSCCSMv/image.png' style='width:50px;height:50px;position:static;'onclick='location.reload();'></embed><p id='searchout1'></p></p>";
+}
