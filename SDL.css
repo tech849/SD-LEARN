@@ -1,0 +1,65 @@
+body{
+     background-color:black;
+     color:white;
+     font-size:50px;
+}
+     #headbox{
+      border:2px solid black;
+       height:auto;
+       width:auto;
+      
+}
+
+#searchin{
+border-radius:30px;
+font-size:20px;
+top:0px;
+width:99%;
+height:40px;
+}
+.chm{
+width:99%;
+}
+placeholder{
+font-family:bold;
+}
+#searchout1{
+width:99%;
+}
+  #mout1{
+                position:fixed;
+              
+                display:none;
+                height:100%;
+                width:100%;
+                z-index:2%;
+                top:0px;
+                left:0px;
+                right:0px;
+                bottom:0px;
+                background-color:black;
+                filter:blur("200px");
+                cursor:pointer;
+                color:yellow;         
+                font-size:19px;    
+                
+            }
+            
+ #searchout2{
+                position:fixed;
+              
+                display:none;
+                height:100%;
+                width:100%;
+                z-index:2%;
+                top:0px;
+                left:0px;
+                right:0px;
+                bottom:0px;
+                background-color:black;
+                filter:blur("200px");
+                cursor:pointer;
+                color:yellow;         
+                font-size:19px;    
+                
+            }
