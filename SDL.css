@@ -63,3 +63,16 @@ width:99%;
                 font-size:19px;    
                 
             }
+table,td{
+            padding:10px;
+            cellspacing:2px;
+            width:99%;
+            border:1px solid green;
+            color:#a62d2d;
+        }
+        href{
+            
+        }
+        td{
+            background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+        }
